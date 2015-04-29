@@ -1,12 +1,10 @@
 # Welcome: Say hello to your little friend!
-------------------------------------
 This project will soon be available in full on GitHub and we wanted to give you a sneakpick at what you will be able to create on your own: A robot on wheels powered by Windows running on a Raspberry Pi 2.
 
 In this workshop you will get the opportunity to navigate the projects source code, deploy the app to the Rsaspberry Pi device, and experience remote debugging.
 After that you will get a chance to play with the code to surprise us!
 
 # About the robot
-------------------------------------
 
 ## Directional movement
 The robot can move in 8 directions:
@@ -44,7 +42,6 @@ When run on the Windows 10 Desktop PC, there is an input screen with the 8 direc
 Click or touch any of these to move the robot.
 
 # About the software
-------------------------------------
 The robot kit software is a UWP project with 6 major files:
 
 1. **MainPage.xaml.cs** - The main application code and entry point
@@ -102,7 +99,7 @@ Press F5 to deploy and start the app.
 ## Debug the app
 From there you can put brakpoints in the code (for example in the MotorControl.cs file, PulsMotor function on the following line:
 
-'''leftPwmPin.Write(GpioPinValue.High);
+leftPwmPin.Write(GpioPinValue.High);
 
 Once the breakpoint is set in the code, use the joystick to move the robot. You should hit the breakpoint...
 
